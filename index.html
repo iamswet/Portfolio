@@ -3,15 +3,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="assets/style.css" />
     <link rel="stylesheet" href="assets/mediaqueries.css" />
-    
+
     <title>Portfolio</title>
   </head>
 
-  <header>
-    
-      
-    
-  </header>
+  <header></header>
   <body>
     <nav id="desktop-nav">
       <div class="logo">Swet Singh</div>
@@ -23,29 +19,64 @@
         <li><a href="#Project">Project</a></li>
       </ul>
     </nav>
-
     <nav id="hamburger-nav">
       <div class="logo">Swet Singh</div>
-        <div class="hamburger-menu">
+      <div class="hamburger-menu">
         <div class="hamburger-icon" onclick="toggleMenu()">
           <span></span>
           <span></span>
           <span></span>
         </div>
         <div class="menu-links">
-        <li><a href="#Home" onclick="toggleMenu()">Home</a></li>
-        <li><a href="#About" onclick="toggleMenu()">About</a></li>
-        <li><a href="#Skills" onclick="toggleMenu()">SKills</a></li>
-        <li><a href="#Work" onclick="toggleMenu()">Work</a></li>
-        <li><a href="#Project" onclick="toggleMenu()">Project</a></li>
+          <li><a href="#Home" onclick="toggleMenu()">Home</a></li>
+          <li><a href="#About" onclick="toggleMenu()">About</a></li>
+          <li><a href="#Skills" onclick="toggleMenu()">SKills</a></li>
+          <li><a href="#Work" onclick="toggleMenu()">Work</a></li>
+          <li><a href="#Project" onclick="toggleMenu()">Project</a></li>
         </div>
       </div>
     </nav>
 
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="img/swet.jpg" alt="profile pic" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
 
+        <h1 class="title">Swet Singh</h1>
+        <p class="section__text__p2">Full Stack Developer</p>
 
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/resume.pdf')"
+          >
+            Download CV
+          </button>
+        </div>
+        <div class="btn-container">
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact
+          </button>
+        </div>
+        <div class="socials-container">
+          <img
+            src="./img/linkedin.png"
+            alt="LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://linkedin.com/iamswet'"
+          />
+          <img
+            src="./img/github.png"
+            alt="LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://linkedin.com/iamswet'"
+          />
+        </div>
+      </div>
+    </section>
 
     <script src="assets/func.js"></script>
   </body>
-  
 </html>
