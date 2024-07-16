@@ -1,14 +1,16 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
   <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Swet Singh - Portfolio</title>
-    <link rel="stylesheet" href="assets/style.css" />
-    <link rel="stylesheet" href="assets/mediaqueries.css" />
-    <link rel="icon" href="img/slogo.png"
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
   </head>
   <body>
     <nav id="desktop-nav">
-      <div class="logo">Swet Singh</div>
+      <div class="logo">John Doe</div>
       <div>
         <ul class="nav-links">
           <li><a href="#about">About</a></li>
@@ -19,7 +21,7 @@
       </div>
     </nav>
     <nav id="hamburger-nav">
-      <div class="logo">Swet Singh</div>
+      <div class="logo">John Doe</div>
       <div class="hamburger-menu">
         <div class="hamburger-icon" onclick="toggleMenu()">
           <span></span>
@@ -36,16 +38,16 @@
     </nav>
     <section id="profile">
       <div class="section__pic-container">
-        <img src="./img/swet.jpg" alt="Swet Singh profile picture" />
+        <img src="./assets/profile-pic.png" alt="John Doe profile picture" />
       </div>
       <div class="section__text">
         <p class="section__text__p1">Hello, I'm</p>
-        <h1 class="title">Swet Singh</h1>
-        <p class="section__text__p2">Full Stack Developer</p>
+        <h1 class="title">John Doe</h1>
+        <p class="section__text__p2">Frontend Developer</p>
         <div class="btn-container">
           <button
             class="btn btn-color-2"
-            onclick="window.open('./assets/resume.pdf')"
+            onclick="window.open('./assets/resume-example.pdf')"
           >
             Download CV
           </button>
@@ -55,16 +57,16 @@
         </div>
         <div id="socials-container">
           <img
-            src="./img/linkedin.png"
+            src="./assets/linkedin.png"
             alt="My LinkedIn profile"
             class="icon"
-            onclick="location.href='https://linkedin.com/in/iamswet'"
+            onclick="location.href='https://linkedin.com/'"
           />
           <img
-            src="./img/github.png"
+            src="./assets/github.png"
             alt="My Github profile"
             class="icon"
-            onclick="location.href='https://github.com/iamswet'"
+            onclick="location.href='https://github.com/'"
           />
         </div>
       </div>
@@ -74,49 +76,51 @@
       <h1 class="title">About Me</h1>
       <div class="section-container">
         <div class="section__pic-container">
-          <img src="./img/swet.jpg" alt="Profile picture" class="about-pic" />
+          <img
+            src="./assets/about-pic.png"
+            alt="Profile picture"
+            class="about-pic"
+          />
         </div>
         <div class="about-details-container">
           <div class="about-containers">
             <div class="details-container">
               <img
-                src="./img/experience.png"
+                src="./assets/experience.png"
                 alt="Experience icon"
                 class="icon"
               />
               <h3>Experience</h3>
-              <p>1+ years <br />Web Development</p>
+              <p>2+ years <br />Frontend Development</p>
             </div>
             <div class="details-container">
               <img
-                src="./img/education.png"
+                src="./assets/education.png"
                 alt="Education icon"
                 class="icon"
               />
               <h3>Education</h3>
-              <p>Pursuing B.Tech<br />Computer Science</p>
+              <p>B.Sc. Bachelors Degree<br />M.Sc. Masters Degree</p>
             </div>
           </div>
           <div class="text-container">
             <p>
-              3
-rd year student pursuing Bachelor’s of Technology in Computer Science. Eager to learn new
-tech stacks practising on leetcode(200+ problems), gfg. Actively participating in Hackathons,
-Webinars and workshops. Winning in Hackathon and coding competitions. Taken seminar to
-explain Git to an audience 200, forming strong community ties & networking.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis
+              reprehenderit et laborum, rem, dolore eum quod voluptate
+              exercitationem nobis, nihil esse debitis maxime facere minus sint
+              delectus velit in eos quo officiis explicabo deleniti dignissimos.
+              Eligendi illum libero dolorum cum laboriosam corrupti quidem,
+              reiciendis ea magnam? Nulla, impedit fuga!
             </p>
           </div>
         </div>
       </div>
-
       <img
-      src="./assets/arrow.png"
-      alt="Arrow icon"
-      class="icon arrow"
-      onclick="location.href='./#experience'"
-    />
-
-
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
     </section>
     <section id="experience">
       <p class="section__text__p1">Explore My</p>
@@ -124,227 +128,133 @@ explain Git to an audience 200, forming strong community ties & networking.
       <div class="experience-details-container">
         <div class="about-containers">
           <div class="details-container">
-            <h2 class="experience-sub-title">SKILLS</h2>
+            <h2 class="experience-sub-title">Frontend Development</h2>
             <div class="article-container">
-              
               <article>
-                <!--
                 <img
                   src="./assets/checkmark.png"
                   alt="Experience icon"
                   class="icon"
                 />
-                -->
-                <div>
-                  <h3>C++</h3>
-                  <p>Experienced</p>
-                </div>
-              </article>
-
-              <article>
-                <!--
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                -->
-                <div>
-                  <h3>Python</h3>
-                  <p>Experiencedp>
-                </div>
-              </article>
-              
-              <article>
-                <!--
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                -->
-                <div>
-                  <h3>JAVA</h3>
-                  <p>Intermediate</p>
-                </div>
-              </article>
-              
-              
-              <article>
-                <!--
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                -->
-                <div>
-                  <h3>OOPs</h3>
-                  <p>Experienced</p>
-                </div>
-              </article>
-
-              <article>
-                <!--
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                -->
-                <div>
-                  <h3>Data Structures</h3>
-                  <p>Experienced</p>
-                </div>
-              </article>
-
-              <article>
-                <!--
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                -->
-                <div>
-                  <h3>Algorithms</h3>
-                  <p>Experienced</p>
-                </div>
-              </article>
-
-              <article>
-                <!--
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                -->
-                <div>
-                  <h3>Git & GitHub</h3>
-                  <p>Experienced</p>
-                </div>
-              </article>
-
-              
-
-
-
-
-              <article>
-                <!--
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                -->
                 <div>
                   <h3>HTML</h3>
                   <p>Experienced</p>
                 </div>
               </article>
               <article>
-                <!--
                 <img
                   src="./assets/checkmark.png"
                   alt="Experience icon"
                   class="icon"
                 />
-                -->
                 <div>
                   <h3>CSS</h3>
                   <p>Experienced</p>
                 </div>
               </article>
-              
               <article>
-                <!--
                 <img
                   src="./assets/checkmark.png"
                   alt="Experience icon"
                   class="icon"
                 />
-                -->
                 <div>
-                  <h3>JavaScript</h3>
+                  <h3>SASS</h3>
                   <p>Intermediate</p>
                 </div>
               </article>
-              
               <article>
-                <!--
                 <img
                   src="./assets/checkmark.png"
                   alt="Experience icon"
                   class="icon"
                 />
-                -->
                 <div>
-                  <h3>Mongo DB</h3>
-                  <p>Experienced</p>
+                  <h3>JavaScript</h3>
+                  <p>Basic</p>
                 </div>
               </article>
               <article>
-                <!--
                 <img
                   src="./assets/checkmark.png"
                   alt="Experience icon"
                   class="icon"
                 />
-                -->
                 <div>
-                  <h3>Express</h3>
-                  <p>Experienced</p>
+                  <h3>TypeScript</h3>
+                  <p>Basic</p>
                 </div>
               </article>
               <article>
-                <!--
                 <img
                   src="./assets/checkmark.png"
                   alt="Experience icon"
                   class="icon"
                 />
-                -->
                 <div>
-                  <h3>NodeJS</h3>
-                  <p>Experienced</p>
+                  <h3>Material UI</h3>
+                  <p>Intermediate</p>
                 </div>
               </article>
-              <article>
-                <!--
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                -->
-                <div>
-                  <h3>React</h3>
-                  <p>Experienced</p>
-                </div>
-              </article>
-
-
-
-
-
-
             </div>
           </div>
-          
+          <div class="details-container">
+            <h2 class="experience-sub-title">Frontend Development</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>PostgreSQL</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Node JS</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Express JS</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Git</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+            </div>
+          </div>
         </div>
       </div>
-
       <img
-      src="./assets/arrow.png"
-      alt="Arrow icon"
-      class="icon arrow"
-      onclick="location.href='./#projects'"
-    />
-
-
-
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
     </section>
     <section id="projects">
       <p class="section__text__p1">Browse My Recent</p>
@@ -353,64 +263,71 @@ explain Git to an audience 200, forming strong community ties & networking.
         <div class="about-containers">
           <div class="details-container color-container">
             <div class="article-container">
-              <img src="./img/img1.jpg" alt="Project 1" class="project-img" />
+              <img
+                src="./assets/project-1.png"
+                alt="Project 1"
+                class="project-img"
+              />
             </div>
-            <h2 class="experience-sub-title project-title">Amazon Clone</h2>
+            <h2 class="experience-sub-title project-title">Project One</h2>
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/iamswet/Amazon-Clone'"
+                onclick="location.href='https://github.com/'"
               >
                 Github
               </button>
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='https://iamswet.github.io/Amazon-Clone/Amazon%20Clone/main.html'"
+                onclick="location.href='https://github.com/'"
               >
                 Live Demo
               </button>
             </div>
           </div>
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img src="./img/img2.jpg" alt="Project 1" class="project-img" />
-            </div>
-            <h2 class="experience-sub-title project-title">Calculator</h2>
-            <div class="btn-container">
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/iamswet/Calculator'"
-              >
-                Github
-              </button>
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://iamswet.github.io/Calculator/Page/main.html'"
-              >
-                Live Demo
-              </button>
-            </div>
-          </div>
-          
           <div class="details-container color-container">
             <div class="article-container">
               <img
-                src="./img/img3.jpg"
+                src="./assets/project-2.png"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Project Two</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-3.png"
                 alt="Project 3"
                 class="project-img"
               />
             </div>
-            <h2 class="experience-sub-title project-title">S.T.U. Reach</h2>
+            <h2 class="experience-sub-title project-title">Project Three</h2>
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/iamswet/S.T.U.-Reach'"
+                onclick="location.href='https://github.com/'"
               >
                 Github
               </button>
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/iamswet/S.T.U.-Reach/blob/main/proj.py'"
+                onclick="location.href='https://github.com/'"
               >
                 Live Demo
               </button>
@@ -418,16 +335,12 @@ explain Git to an audience 200, forming strong community ties & networking.
           </div>
         </div>
       </div>
-
       <img
-      src="./assets/arrow.png"
-      alt="Arrow icon"
-      class="icon arrow"
-      onclick="location.href='./#contact'"
-    />
-
-
-
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
     </section>
     <section id="contact">
       <p class="section__text__p1">Get in Touch</p>
@@ -435,19 +348,19 @@ explain Git to an audience 200, forming strong community ties & networking.
       <div class="contact-info-upper-container">
         <div class="contact-info-container">
           <img
-            src="./img/email.png"
+            src="./assets/email.png"
             alt="Email icon"
             class="icon contact-icon email-icon"
           />
-          <p><a href="mailto:hiswets3@gmail.com">hiswets3@gmail.com</a></p>
+          <p><a href="mailto:examplemail@gmail.com">Example@gmail.com</a></p>
         </div>
         <div class="contact-info-container">
           <img
-            src="./img/linkedin.png"
+            src="./assets/linkedin.png"
             alt="LinkedIn icon"
             class="icon contact-icon"
           />
-          <p><a href="https://www.linkedin.com/in/iamswet">LinkedIn</a></p>
+          <p><a href="https://www.linkedin.com">LinkedIn</a></p>
         </div>
       </div>
     </section>
@@ -462,8 +375,8 @@ explain Git to an audience 200, forming strong community ties & networking.
           </ul>
         </div>
       </nav>
-      <p>Copyright &#169; 2024 Swet Singh. All Rights Reserved.</p>
+      <p>Copyright &#169; 2023 John Doe. All Rights Reserved.</p>
     </footer>
-    <script src="assets/script.js"></script>
+    <script src="script.js"></script>
   </body>
 </html>
