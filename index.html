@@ -1,456 +1,195 @@
-<html>
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Swet Singh - Portfolio</title>
-    <link rel="stylesheet" href="assets/style.css" />
-    <link rel="stylesheet" href="assets/mediaqueries.css" />
-    <link rel="icon" href="img/slogo.png"
-  </head>
-  <body>
-    <nav id="desktop-nav">
-      <div class="logo">Swet Singh</div>
-      <div>
-        <ul class="nav-links">
-          <li><a href="#about">About</a></li>
-          <li><a href="#experience">Experience</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </div>
-    </nav>
-    <nav id="hamburger-nav">
-      <div class="logo">Swet Singh</div>
-      <div class="hamburger-menu">
-        <div class="hamburger-icon" onclick="toggleMenu()">
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
-        <div class="menu-links">
-          <li><a href="#about" onclick="toggleMenu()">About</a></li>
-          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
-          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
-          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
-        </div>
-      </div>
-    </nav>
-    <section id="profile">
-      <div class="section__pic-container">
-        <img src="./img/swet.jpg" alt="Swet Singh profile picture" />
-      </div>
-      <div class="section__text">
-        <p class="section__text__p1">Hello, I'm</p>
-        <h1 class="title">Swet Singh</h1>
-        <p class="section__text__p2">Full Stack Developer</p>
-        <div class="btn-container">
-          <button
-            class="btn btn-color-2"
-            onclick="window.open('./assets/resume.pdf')"
-          >
-            Download CV
-          </button>
-          <button class="btn btn-color-1" onclick="location.href='./#contact'">
-            Contact Info
-          </button>
-        </div>
-        <div id="socials-container">
-          <img
-            src="./img/linkedin.png"
-            alt="My LinkedIn profile"
-            class="icon"
-            onclick="location.href='https://linkedin.com/in/iamswet'"
-          />
-          <img
-            src="./img/github.png"
-            alt="My Github profile"
-            class="icon"
-            onclick="location.href='https://github.com/iamswet'"
-          />
-        </div>
-      </div>
-    </section>
-    <section id="about">
-      <p class="section__text__p1">Get To Know More</p>
-      <h1 class="title">About Me</h1>
-      <div class="section-container">
-        <div class="section__pic-container">
-          <img src="./img/swet.jpg" alt="Profile picture" class="about-pic" />
-        </div>
-        <div class="about-details-container">
-          <div class="about-containers">
-            <div class="details-container">
-              <img
-                src="./img/experience.png"
-                alt="Experience icon"
-                class="icon"
-              />
-              <h3>Experience</h3>
-              <p>1+ years <br />Web Development</p>
+<!doctype html>
+<html lang=en-us>
+   <head>
+      <meta name=generator content="Hugo 0.69.2">
+      <title>Swet Singh</title>
+      <meta charset=utf-8>
+      <meta name=viewport content="width=device-width,initial-scale=1">
+      <link rel=stylesheet href=https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css integrity=sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm crossorigin=anonymous>
+      <link rel=stylesheet href=https://d1azc1qln24ryf.cloudfront.net/114779/Socicon/style-cf.css?u8vidh>
+      <link rel=stylesheet href=style.css>
+      <link href="https://fonts.googleapis.com/css?family=Montserrat:800" rel=stylesheet>
+      <link rel=stylesheet href="assets/highlight.css">
+      <link rel=stylesheet href=https://use.fontawesome.com/releases/v5.3.1/css/all.css integrity=sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU crossorigin=anonymous>
+      <meta name=author content="Swet Singh">
+      <meta name=theme-color content="#000000">
+      <meta itemprop=name content="Swet Singh">
+      <meta itemprop=description content>
+      <meta name=og:title content="Swet Singh">
+      <meta name=og:description content>
+      <meta name=og:type content="article">
+      <meta name=twitter:card content="summary">
+      <meta name=twitter:title content="Swet Singh">
+      <meta name=twitter:description content>
+      <meta name=article:author content="Swet Singh">
+      <link rel="icon" href="img/slogo.png">
+      <script type=application/ld+json>{"@context":"http://schema.org","@type":"WebSite","url":"https:\/\/iamswet.github.io\/Portfolio","name":"Swet Singh","author":{"@type":"Person","name":"Swet Singh"},"description":""}</script>
+   </head>
+   <body class=clearfix>
+      <section id=sidebar class="sidebar d-flex align-items-center p-5">
+         <div class=main-info>
+            <img src=image/sim.png class="rounded-circle mb-3" width=160px>
+            <h1 class=heading>hello world, I am <span class=highlight>Swet Singh</span></h1>
+            <p class=text-muted>I am a final year Computer Engineering Student with experience in Research and Web Development.I am looking for full-time opportunities.</p>
+            <div class="social my-4"><a target=_blank href=https://github.com/iamswet rel=me><i class="fab fa-github"></i></a><a target=_blank href=https://www.linkedin.com/in/iamswet rel=me><i class="fab fa-linkedin"></i></a><a target=_blank href=mailto:hiswets3@gmail.com download><i class="fas fa-envelope"></i></a></div>
+   
+         </div>
+      </section>
+      <div class=main-content>
+         <section class=blue>
+            <h2 class=heading>Projects</h2>
+            <div class="row justify-content-md-center text-center">
+               <div class="col-12 col-lg-6 col-md-6 mb-3">
+                  <div class="card p-4">
+                     <center>
+                        <img src="image/cart.png" height="25%" width="25%">
+                     </center>
+                     <h5 class=mt-4><a href=https://github.com/iamswet/Gada-Electronics style=color:#000>Gada Electronics</a></h5>
+                     <p class=text-muted>A e-commerce portal for Electronic devices.</p>
+                  </div>
+               </div>
+               <div class="col-12 col-lg-6 col-md-6 mb-3">
+                  <div class="card p-4">
+                     <center>
+                        <img src="image/net.png" height="25%" width="25%">
+                     </center>
+                     <h5 class=mt-4><a href=https://github.com/iamswet/Netflix-Clone- style=color:#000>Netflix Clone</a></h5>
+                     <p class=text-muted>Cloned Netflix homepage from scratch</p>
+                  </div>
+               </div>
+               <div class="col-12 col-lg-6 col-md-6 mb-3">
+                  <div class="card p-4">
+                     <center>
+                        <img src="image/cloud.png" height="25%" width="25%">
+                     </center>
+                     <h5 class=mt-4><a href=https://github.com/iamswet/Weather-App style=color:#000>Weather App</a></h5>
+                     <p class=text-muted>Take in real time reponses for the current and future weather predictions.</p>
+                  </div>
+               </div>
+               <div class="col-12 col-lg-6 col-md-6 mb-3">
+                  <div class="card p-4">
+                     <center>
+                        <img src="image/hand.png" height="18%" width="18%">
+                     </center>
+                     <h5 class=mt-4><a href=https://github.com/iamswet/Hand-Gesture-Recognition style=color:#000>Hand Gesture Recognition</a></h5>
+                     <p class=text-muted>Using OpenCV and MediaPipe, developed a hand gesture Recognition project</p>
+                  </div>
+               </div>
             </div>
-            <div class="details-container">
-              <img
-                src="./img/education.png"
-                alt="Education icon"
-                class="icon"
-              />
-              <h3>Education</h3>
-              <p>Pursuing B.Tech<br />Computer Science</p>
+         </section>
+         <section id=experience class=green>
+            <h2 class=heading>Work Experience</h2>
+            <div id=timeline>
+               <div class="timeline-item clearfix">
+                  <div class=timeline-icon></div>
+                  <div class="timeline-content right">
+                     <span class=date>July 2024 - September 2024</span>
+                     <h6 class="h3 my-2">Full Stack Developer Intern - Cains Creations</h6>
+                     <a target=_blank href=https://www.linkedin.com/posts/iamswet_internship-fullstackdeveloper-webdevelopment-activity-7209619793262366721-av4J?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD1xc1YBeOpq0QY8E-bvYNctCqBDcmBdTqQ><i class="fas fa-link"></i>CainsCreations</a>
+                     <p>Collabarated with senior devs and successfully integrated REST APIs with frontend. provided maintained github and practiced version control</p>
+                  </div>
+               </div>
+               <div class="timeline-item clearfix">
+                  <div class=timeline-icon></div>
+                  <div class=timeline-content>
+                     <span class=date>December 2023 - May 2024</span>
+                     <h6 class="h3 my-2">Web Developer Intern - Ebiosketch Technologies Pvt. Ltd.</h6>
+                     <a target=_blank href=https://www.linkedin.com/posts/iamswet_webdevelopment-tech-careergrowth-activity-7205969291316203520-7l0n?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD1xc1YBeOpq0QY8E-bvYNctCqBDcmBdTqQ><i class="fas fa-link"></i>Ebiosketch</a>
+                     <p>Developed and deployed websites from scratch.</p>
+                  </div>
+               </div>
+               <div class="timeline-item clearfix">
+                  <div class=timeline-icon></div>
+                  <div class="timeline-content right">
+                     <span class=date>July 2023 - June 2024</span>
+                     <h6 class="h3 my-2">Technical Lead - Coding Club NMIMS</h6>
+                     <a target=_blank href=https://www.linkedin.com/posts/iamswet_coding-codingclub-tech-activity-7098538451016286208-BMfq?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD1xc1YBeOpq0QY8E-bvYNctCqBDcmBdTqQ><i class="fas fa-link"></i>CodingClub</a>
+                     <p>Lead a team of 20+ to efficiently collabarate and work upon multiple project leading to successful events and meeting work deadlines.</p>
+                  </div>
+               </div>
+               <div class="timeline-item clearfix">
+                  <div class=timeline-icon></div>
+                  <div class=timeline-content>
+                     <span class=date>August 2023 - June 2024</span>
+                     <h6 class="h3 my-2">Technical Sub Core - GDSC</h6>
+                     <a target=_blank href=https://www.linkedin.com/posts/iamswet_gdsc-technicalsubcore-newbeginnings-activity-7102001346605711360-6dC5?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD1xc1YBeOpq0QY8E-bvYNctCqBDcmBdTqQ><i class="fas fa-link"></i>GDSC</a>
+                     <p>Completed work deadlines and proved to be a valuable asset to the entire team.</p>
+                  </div>
+               </div>
             </div>
-          </div>
-          <div class="text-container">
-            <p>
-              3
-rd year student pursuing Bachelor’s of Technology in Computer Science. Eager to learn new
-tech stacks practising on leetcode(200+ problems), gfg. Actively participating in Hackathons,
-Webinars and workshops. Winning in Hackathon and coding competitions. Taken seminar to
-explain Git to an audience 200, forming strong community ties & networking.
-            </p>
-          </div>
-        </div>
+         </section>
+         <section id=skills class="aqua text-light">
+            <h2 class=heading>Skills</h2>
+            <br>
+            <h4>LANGUAGES</h4>
+            <div class=skill><span class=h5>C++ , Python , JAVA</span></div>
+            <h4>FRONTEND DEVELOPMENT</h4>
+            <div class=skill><span class=h5>HTML , CSS , Bootstrap , React</span></div>
+            <h4>BACKEND DEVELOPMENT</h4>
+            <div class=skill><span class=h5>NodeJS , express , MongoDB , MySQL , PostgreSQL</span></div>
+            <h4>TOOLS</h4>
+            <div class=skill><span class=h5>PowerBI , MS Office , REST APIs</span></div>
+            <h4>VERSION CONTROL</h4>
+            <div class=skill><span class=h5>Git</span></div>
+         </section>
+         <section id=experience class=blue>
+         <h2 class=heading>Achievements</h2>
+         <div id=timeline>
+            
+            
+            <div class="timeline-item clearfix">
+               <div class=timeline-icon></div>
+               <div class="timeline-content right">
+                  <span class=date>March 2024</span>
+                  <h6 class="h3 my-2">1<sup>st</sup> position at Dev-o-Thon hackathon</h6>
+                  <a style=font-size:14px target=_blank href=https://www.linkedin.com/posts/iamswet_hackathon-webdevelopment-teamwork-activity-7176301053611524097-eAQt?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD1xc1YBeOpq0QY8E-bvYNctCqBDcmBdTqQ><i class="fas fa-link"></i>Dev-O-Thon</a>
+                  <p>Secured 1st place in Dev-o-thon hackathon conducted at inter college level.</p>
+               </div>
+            </div>
+            <div class="timeline-item clearfix">
+               <div class=timeline-icon></div>
+               <div class=timeline-content>
+                  <span class=date>December 2023</span>
+                  <h6 class="h3 my-2">3<sup>rd</sup> position at hour of Code event</h6>
+                  <a style=font-size:14px target=_blank href=https://www.linkedin.com/posts/iamswet_codingcompetition-hourofcode-thirdplace-activity-7160338630207549440-IRRX?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD1xc1YBeOpq0QY8E-bvYNctCqBDcmBdTqQ><i class="fas fa-link"></i>HourOfCode</a>
+                  <p>Cleared all 3 competetive programming questions in stipulated time interval.</p>
+               </div>
+            </div>
+            <div class="timeline-item clearfix">
+               <div class=timeline-icon></div>
+               <div class="timeline-content right">
+                  <span class=date>October 2023</span>
+                  <h6 class="h3 my-2">Github Session</h6>
+                  <a style=font-size:14px target=_blank href=https://www.linkedin.com/posts/iamswet_git-github-versioncontrol-activity-7113450453325017088-yuGg?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD1xc1YBeOpq0QY8E-bvYNctCqBDcmBdTqQ><i class="fas fa-link"></i>GitHub</a>
+                  <p>Took an educative session on Git & GitHub for an audience of 200+ students.</p>
+               </div>
+            </div>
+            <div class="timeline-item clearfix">
+               <div class=timeline-icon></div>
+               <div class=timeline-content>
+                  <span class=date>September 2023</span>
+                  <h6 class="h3 my-2">2<sup>nd</sup> place CodeKraken Hackathon</h6>
+                  <a style=font-size:14px target=_blank href=https://www.linkedin.com/posts/iamswet_codekraken-gdsc-google-activity-7107835674451476480-dLGZ?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD1xc1YBeOpq0QY8E-bvYNctCqBDcmBdTqQ><i class="fas fa-link"></i>CodeKraken</a>
+                  <p>Developed a real time Student-teacher project. The hackathon was hosted for different colleges across Maharashtra.</p>
+               </div>
+            </div>
+            <div class="timeline-item clearfix">
+               <div class=timeline-icon></div>
+               <div class="timeline-content right">
+                  <span class=date>March 2023</span>
+                  <h6 class="h3 my-2">1<sup>st</sup> position Code Bug at Ambiora 2k23</h6>
+                  <a style=font-size:14px target=_blank href=https://www.linkedin.com/in/iamswet/><i class="fas fa-link"></i>CodeBug</a>
+                  <p>Secured first place in the 1st year of college hosted across multiple campuses at annual college tech fest.</p>
+               </div>
+            </div>
+         </div>
       </div>
-
+      <div style=z-index:4;position:relative></div>
       
-
-
-    </section>
-    <section id="experience">
-      <p class="section__text__p1">Explore My</p>
-      <h1 class="title">Experience</h1>
-      <div class="experience-details-container">
-        <div class="about-containers">
-          <div class="details-container">
-            <h2 class="experience-sub-title">SKILLS</h2>
-            <div class="article-container">
-              
-              <article>
-                <!--
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                -->
-                <div>
-                  <h3>C++</h3>
-                  <p>Experienced</p>
-                </div>
-              </article>
-
-              <article>
-                <!--
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                -->
-                <div>
-                  <h3>Python</h3>
-                  <p>Experiencedp>
-                </div>
-              </article>
-              
-              <article>
-                <!--
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                -->
-                <div>
-                  <h3>JAVA</h3>
-                  <p>Intermediate</p>
-                </div>
-              </article>
-              
-              
-              <article>
-                <!--
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                -->
-                <div>
-                  <h3>OOPs</h3>
-                  <p>Experienced</p>
-                </div>
-              </article>
-
-              <article>
-                <!--
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                -->
-                <div>
-                  <h3>Data Structures</h3>
-                  <p>Experienced</p>
-                </div>
-              </article>
-
-              <article>
-                <!--
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                -->
-                <div>
-                  <h3>Algorithms</h3>
-                  <p>Experienced</p>
-                </div>
-              </article>
-
-              <article>
-                <!--
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                -->
-                <div>
-                  <h3>Git & GitHub</h3>
-                  <p>Experienced</p>
-                </div>
-              </article>
-
-              
-
-
-
-
-              <article>
-                <!--
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                -->
-                <div>
-                  <h3>HTML</h3>
-                  <p>Experienced</p>
-                </div>
-              </article>
-              <article>
-                <!--
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                -->
-                <div>
-                  <h3>CSS</h3>
-                  <p>Experienced</p>
-                </div>
-              </article>
-              
-              <article>
-                <!--
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                -->
-                <div>
-                  <h3>JavaScript</h3>
-                  <p>Intermediate</p>
-                </div>
-              </article>
-              
-              <article>
-                <!--
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                -->
-                <div>
-                  <h3>Mongo DB</h3>
-                  <p>Experienced</p>
-                </div>
-              </article>
-              <article>
-                <!--
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                -->
-                <div>
-                  <h3>Express</h3>
-                  <p>Experienced</p>
-                </div>
-              </article>
-              <article>
-                <!--
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                -->
-                <div>
-                  <h3>NodeJS</h3>
-                  <p>Experienced</p>
-                </div>
-              </article>
-              <article>
-                <!--
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                -->
-                <div>
-                  <h3>React</h3>
-                  <p>Experienced</p>
-                </div>
-              </article>
-
-
-
-
-
-
-            </div>
-          </div>
-          
-        </div>
-      </div>
-
-     
-
-
-
-    </section>
-    <section id="projects">
-      <p class="section__text__p1">Browse My Recent</p>
-      <h1 class="title">Projects</h1>
-      <div class="experience-details-container">
-        <div class="about-containers">
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img src="./img/img1.jpg" alt="Project 1" class="project-img" />
-            </div>
-            <h2 class="experience-sub-title project-title">Amazon Clone</h2>
-            <div class="btn-container">
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/iamswet/Amazon-Clone'"
-              >
-                Github
-              </button>
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://iamswet.github.io/Amazon-Clone/Amazon%20Clone/main.html'"
-              >
-                Live Demo
-              </button>
-            </div>
-          </div>
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img src="./img/img2.jpg" alt="Project 1" class="project-img" />
-            </div>
-            <h2 class="experience-sub-title project-title">Calculator</h2>
-            <div class="btn-container">
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/iamswet/Calculator'"
-              >
-                Github
-              </button>
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://iamswet.github.io/Calculator/Page/main.html'"
-              >
-                Live Demo
-              </button>
-            </div>
-          </div>
-          
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img
-                src="./img/img3.jpg"
-                alt="Project 3"
-                class="project-img"
-              />
-            </div>
-            <h2 class="experience-sub-title project-title">S.T.U. Reach</h2>
-            <div class="btn-container">
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/iamswet/S.T.U.-Reach'"
-              >
-                Github
-              </button>
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/iamswet/S.T.U.-Reach/blob/main/proj.py'"
-              >
-                Live Demo
-              </button>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      
-
-
-
-    </section>
-    <section id="contact">
-      <p class="section__text__p1">Get in Touch</p>
-      <h1 class="title">Contact Me</h1>
-      <div class="contact-info-upper-container">
-        <div class="contact-info-container">
-          <img
-            src="./img/email.png"
-            alt="Email icon"
-            class="icon contact-icon email-icon"
-          />
-          <p><a href="mailto:hiswets3@gmail.com">hiswets3@gmail.com</a></p>
-        </div>
-        <div class="contact-info-container">
-          <img
-            src="./img/linkedin.png"
-            alt="LinkedIn icon"
-            class="icon contact-icon"
-          />
-          <p><a href="https://www.linkedin.com/in/iamswet">LinkedIn</a></p>
-        </div>
-      </div>
-    </section>
-    <footer>
-      <nav>
-        <div class="nav-links-container">
-          <ul class="nav-links">
-            <li><a href="#about">About</a></li>
-            <li><a href="#experience">Experience</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-        </div>
-      </nav>
-      <p>Copyright &#169; 2024 Swet Singh. All Rights Reserved.</p>
-    </footer>
-    <script src="assets/script.js"></script>
-  </body>
+      <script src=https://blog.uicard.io/js/highlight.min.js></script><script>hljs.initHighlightingOnLoad();</script>
+   </body>
+   <script src=https://code.jquery.com/jquery-3.2.1.min.js crossorigin=anonymous></script>
+   <script src=https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js integrity=sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q crossorigin=anonymous></script>
+   <script src=https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js integrity=sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl crossorigin=anonymous></script>
+   <script src=main.js></script>
 </html>
-
-
